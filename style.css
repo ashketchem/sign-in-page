@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Kode Mono', monospace;
+}
+
+body {
+  background: url("halie-west-25xggax4bSA-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  max-width: 70%;
+  backdrop-filter: blur(10px);
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form button[type="submit"]:active {
+  background-color: #3e8e41;
+}
+
+input:focus {
+  box-shadow: 0 5px 10px #728fed;
+  outline: none;
+  border: 2px solid steelblue;
+}
+
+.form input:invalid {
+  border: 1px solid red;
+}
+
+.form input:valid {
+  border: 1px solid lightgreen;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid #fff;
+  padding: 20px;
+  
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: steelblue;
+  text-decoration: none;
+}

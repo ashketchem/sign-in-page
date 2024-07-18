@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign up page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Home</h1>
+    <div>
+    <ul>
+      <li><a href="#">Sign-In </a></li>
+      <li><a href="#">Sign-Up</a></li>
+      <li><a href="#">About us</a></li>
+    </ul>
+    </div>
+  </header>
+  <div class="container">
+    <div class="form sign-in">
+      <form action="#" method="get">
+        <legend>Sign in</legend>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name" name="fullname" required>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" name="email" required>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" name="password" required minlength="9" maxlength="20">
+        <label>Contact Number:</label>
+        <input type="tel" placeholder="Enter your contact number" name="contact" pattern="[0-9]{10}" required>
+        <fieldset>
+          <legend>Choose your gender</legend>
+          <input type="radio" name="gender" value="male" id="male" class="gender" checked>
+          <label for="male" class="gender">Male</label>
+          <input type="radio" name="gender" value="female" id="female" class="gender">
+          <label for="female" class="gender">Female</label>
+        </fieldset>
+        <button type="submit">Sign in</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
