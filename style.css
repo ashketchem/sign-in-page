@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
-html {
-  height: 100%;
-  width: 100%;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -25,6 +20,45 @@ body {
   width: 40%;
   max-width: 70%;
   backdrop-filter: blur(10px);
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.form legend {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+}
+
+.form input[type="radio"] {
+  margin: 2px;
+  border: 0 solid black;
+}
+
+.form fieldset {
   border: none;
   padding: 0;
   margin-bottom: 20px;
