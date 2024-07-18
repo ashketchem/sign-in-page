@@ -20,9 +20,12 @@ body {
   width: 40%;
   max-width: 70%;
   backdrop-filter: blur(10px);
-  border: none;
-  padding: 0;
-  margin-bottom: 20px;
+  box-shadow: 0 5px 10px rgba(0, 225, 225, 0.5);
+  text-shadow: 0 4px 8px rgba(0, 225, 225, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40% auto;
 }
 
 .form {
@@ -105,6 +108,7 @@ header {
   padding: 20px;
   
 }
+  
 ul li {
   text-decoration: none;
   list-style: none;
